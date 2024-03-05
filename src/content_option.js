@@ -1,156 +1,127 @@
-const logotext = "JOHN";
+// import nida from './assets/Images/image.jpg'
+import nida from '../src/assets/images/image.jpg'
+import logo1 from '../src/assets/images/logo1.png'
+import logo2 from '../src/assets/images/logo2.png'
+import logo3 from '../src/assets/images/logo3.png'
+import logo4 from '../src/assets/images/logo4.png'
+const logotext = ".";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Nida Noushad",
+    description: "I’m Nida Noushad-frontEnd Developer",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Nida Noushad",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        // second: "I code cool websites",
+        third: "I am Front-End Developer",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO",
+    // your_img_url: "react-portfolio\src\assets\images\image.jpg",
+    your_img_url: nida,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "about my self",
+    aboutme: "Ambitious and self-motivated individual with a passion for technology and a developing skill set in front-end development. Committed to continuous learning and seeking opportunities to expand my knowledge",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+ const worktimeline = [{
+         jobtitle: "",
+         where: "",
+         date: "",
+     },
+     {
+         jobtitle: "",
+         where: "",
+         date: "",
+     },
+     {
+         jobtitle: "",
+         where: "",
+         date: "",
+     },
+ ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "React js",
+        value: 70,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Python",
+        value: 40,
     },
     {
         name: "Javascript",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "HTML5",
+        value: 85,
     },
     {
-        name: "Jquery",
+        name: "css",
         value: 85,
+    },
+    {
+        name: "Bootstrap",
+        value: 75,
+    },
+    {
+        name: "c",
+        value: 60,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Landing Page",
+        description: "Designed and developed a static landing page for a company website. Created a clean and modern UI with HTML and CSS, focusing on simplicity and elegance. Implemented responsive design techniques to ensure the website looks great on desktop and mobile devices.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Responsive Website Redesign",
+        description: "Redesigned an existing website to be fully responsive and mobile-friendly. Utilized media queries and flexbox to ensure optimal layout and styling across various screen sizes.",
     },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+    
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: logo1,
+        description: "designed and developed a modern,user-friendly static website of a travel agency, Utilized HTML, CSS, and ReactJs .",
+        link: "https://nidanoushad.github.io/RoamX/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: logo2,
+        description: "Created 'GlowUp,' a captivating static website using ReactJS and FramerMotion",
+        link: "https://nidanoushad.github.io/GlowUp/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: logo3,
+        description: "Developed the 'Bingo' static website from scratch using HTML, CSS, and Sass to craft a visually appealing and responsive platform",
+        link: "https://nidanoushad.github.io/Bootstrap-with-sass/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: logo4,
+        description: "",
+        link: "https://nidanoushad.github.io/Contact-us/",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "nida11noushad@gmail.com",
+    // YOUR_FONE: "(555)123-4567",
+    description:  "Thank you for visiting my portfolio! If you have any questions, inquiries, or would like to discuss potential collaborations, please feel free to send me a message using the form below. Let's connect and explore how we can work together to bring your ideas to life!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_26v9bvu",
+    YOUR_TEMPLATE_ID: "template_45v32eg",
+    YOUR_USER_ID: "o1kI_v4RcN7Y5nzhD",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/NidaNoushad",
+    // facebook: "https://facebook.com",
+    linkedin: "https://www.linkedin.com/in/nida-noushad/",
+    // twitter: "https://twitter.com",
 };
 export {
     meta,
